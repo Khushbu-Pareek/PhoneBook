@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <div id="headerWrapper">
+        <a class="logo" href="http://www.pramati.com/" title="Home">
+            <img src="http://www.pramati.com/assets/images/logo.png" alt="Pramati | Ideas to life"></a>
+    </div>
+</header>
+
+<body>
+    <button type="button" id="showContacts" value="Show Contacts">Show Contacts</button>
+    <div id="container">
+        <div id="detail">
+            <div class="contacts"></div>
+            <div id="pagination" class="hidden">
+                <button type="button" class="pgBtn-prev disabled">Prev</button>
+                <div id="currentPage"> </div>
+                <div id="totalPage"> </div>
+                <button type="button" class="pgBtn-next ">Next</button>
+            </div>
+            <div id="paginationSearch" class="hidden">
+                <button type="button" class="pgBtnS-prev ">Prev</button>
+                <div id="currentSearchPage"> </div>
+                <div id="totalSearchPage"> </div>
+                <button type="button" class="pgBtnS-next ">Next</button>
+            </div>
+        </div>  
+        <div id="completeDetails"></div>
+    </div>
+    
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>

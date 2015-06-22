@@ -1,0 +1,137 @@
+.contacts {
+    color: black;
+    width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    float: left;
+}
+#detail{
+    color: black;
+    width: 350px;
+    height: 650px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 0;
+    float:left;
+}
+#headerWrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+.scroll {
+    overflow-y: auto;
+    width: 85%;
+    height: 85%;
+    list-style-type: none;
+    margin: 0;
+}
+dt {
+    width: 92%;
+    min-height: 25px;
+    padding-bottom: :3px;
+    text-align: center;
+}
+#showContacts {
+    width: 350px;
+    height: 80px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    background-color: grey;
+    opacity: 0.8;
+    
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 40;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+}
+#showContacts:hover {
+    cursor: pointer;
+}
+#completeDetails {
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 190px;
+}
+li {
+    list-style-type: none;
+    border-bottom: 1px;
+}
+#search {
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+.scroll li:before {
+    content: '\f007';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #0074D9;
+}
+.employeeList {
+    background-color: #C3E3ED;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    width: 94%;
+}
+.personalImage {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.searchable.hide {
+    display: none;
+}
+.searchable.show {
+    display: block;
+}
+.hidden{
+    display: none !important;
+}
+#pagination, #paginationSearch{
+    width:88%;
+    margin-left: 20px;
+}
+.pgBtn-prev,.pgBtnS-prev{
+    float: left;
+}
+.pgBtn-next, .pgBtnS-next{
+    float: right;
+}
+.pgBtn-prev, .pgBtnS-prev, .pgBtn-next, .pgBtnS-next {
+    margin: 0 2px;
+    border: 1px solid #959595;
+    border-radius: 2px;
+    padding: 2px;
+    width: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.currentPage, .currentSearchPage {
+    color: #FFFFFF;
+    background-color: #7A7A7A !important;
+    font-weight: bold;
+}
+.pgBtn:hover, .pgBtn-prev:hover, .pgBtn-next:hover, .pgBtnS-prev:hover, .pgBtnS-next:hover  {
+    background-color: #BBBBBB;
+    font-weight: bold;
+}
+#currentPage, #currentSearchPage{
+    width: 50px;
+    height: 20px;
+    float:left;
+    text-align: center;
+    margin-left: 35px;
+}
+#totalPage, #totalSearchPage{
+    width: 80px;
+    height: 20px;
+    float:left;
+    text-align: left;
+}
